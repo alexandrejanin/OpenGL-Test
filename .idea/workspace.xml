@@ -49,8 +49,8 @@
       <file leaf-file-name="Camera.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rendering/Camera.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#57#80#0" expanded="true" />
               </folding>
@@ -73,7 +73,7 @@
       <file leaf-file-name="Renderer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rendering/Renderer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="1173">
               <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
             </state>
           </provider>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/Engine.cpp" />
         <option value="$PROJECT_DIR$/src/Components/Camera.hpp" />
         <option value="$PROJECT_DIR$/src/Components/Camera.cpp" />
-        <option value="$PROJECT_DIR$/src/Rendering/Camera.hpp" />
         <option value="$PROJECT_DIR$/src/Rendering/Renderer.cpp" />
+        <option value="$PROJECT_DIR$/src/Rendering/Camera.hpp" />
         <option value="$PROJECT_DIR$/src/Rendering/Camera.cpp" />
       </list>
     </option>
@@ -216,6 +216,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/C++ Projects/SFMLGame/src/Engine.hpp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
@@ -287,11 +288,13 @@
       <workItem from="1526977056650" duration="6872000" />
       <workItem from="1527007007569" duration="9312000" />
       <workItem from="1527067647247" duration="11713000" />
+      <workItem from="1527107836110" duration="1129000" />
+      <workItem from="1527156558028" duration="3043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148791000" />
+    <option name="totallyTimeSpent" value="152963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +315,7 @@
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32881" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17118998" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17118998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -591,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#57#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#47#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,20 +670,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendering/Camera.hpp">
+    <entry file="file://$PROJECT_DIR$/src/Rendering/Renderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#57#80#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1173">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendering/Renderer.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Rendering/Camera.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#57#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

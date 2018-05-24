@@ -1,4 +1,4 @@
-# Install script for directory: D:/Code/C++ Projects/SFMLGame
+# Install script for directory: D:/Code/C++ Projects/OpenGL-Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Code/C++ Projects/SFMLGame/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Code/C++ Projects/OpenGL-Test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

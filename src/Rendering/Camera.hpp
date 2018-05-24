@@ -14,7 +14,7 @@ protected:
 	glm::vec3 target = glm::vec3(0.f), position = glm::vec3(0.f),
 			forward = glm::vec3(0.f, 0.f, -1.f), right = glm::vec3(1.f, 0.f, 0.f), up = glm::vec3(0.f, 1.f, 0.f);
 	float distance = 3.f;
-	float speed = 1.f, rotateSpeed = 45.f;
+	float speed = 1.f, rotateSpeed = 45.f, smoothFactor = 10.f;
 };
 
 #endif //SFMLGAME_CAMERA_HPP

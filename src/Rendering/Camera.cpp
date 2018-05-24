@@ -26,7 +26,13 @@ void Camera::Update(float dTime) {
 	right = glm::normalize(glm::cross(glm::vec3(0.f, 1.f, 0.f), -forward));
 	up = glm::normalize(glm::cross(-forward, right));
 
-	position = target + distance * glm::normalize(-forward);
+	glm::vec3 targetPosition = target + distance * glm::normalize(-forward);
+
+	float t = smoothFactor * dTime;
+
+	position = t < 1.f
+			   ? position + (targetPosition - position) * t
+			   : targetPosition;
 
 	glm::vec3 movement = glm::vec3(0.f, 0.f, 0.f);
 

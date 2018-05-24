@@ -6,163 +6,161 @@
 
 #IncludeRegexTransform: 
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Collider.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Collider.cpp
 Collider.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Collider.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Collider.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Collider.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Collider.hpp
 Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.cpp
 Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 SFML/Graphics.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/SFML/Graphics.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/SFML/Graphics.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Components.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Components.hpp
 Position.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.hpp
 Collider.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Collider.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Collider.hpp
 SpriteRenderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/SpriteRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
 TextRenderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/TextRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/TextRenderer.hpp
 FPSCounter.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/FPSCounter.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/FPSCounter.hpp
 KeyboardInput.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/KeyboardInput.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/KeyboardInput.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/FPSCounter.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/FPSCounter.cpp
 FPSCounter.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/FPSCounter.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/FPSCounter.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/FPSCounter.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/FPSCounter.hpp
 TextRenderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/TextRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/TextRenderer.hpp
 ../Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/KeyboardInput.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/KeyboardInput.cpp
 KeyboardInput.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/KeyboardInput.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/KeyboardInput.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/KeyboardInput.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/KeyboardInput.hpp
 Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 Position.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.hpp
 ../Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.cpp
 Position.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.hpp
 ../Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.hpp
 Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 SFML/System.hpp
 -
 
-D:/Code/C++ Projects/SFMLGame/src/Components/SpriteRenderer.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.cpp
 SpriteRenderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/SpriteRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
 ../Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 ../TextureManager.hpp
-D:/Code/C++ Projects/SFMLGame/src/TextureManager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/TextureManager.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/SpriteRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
 Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 Position.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.hpp
 SFML/Graphics.hpp
 -
 
-D:/Code/C++ Projects/SFMLGame/src/Components/TextRenderer.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/TextRenderer.cpp
 TextRenderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/TextRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/TextRenderer.hpp
 ../Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Components/TextRenderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/TextRenderer.hpp
 Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 Position.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Position.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Position.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Engine.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Engine.cpp
 Engine.hpp
-D:/Code/C++ Projects/SFMLGame/src/Engine.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Engine.hpp
 TextureManager.hpp
-D:/Code/C++ Projects/SFMLGame/src/TextureManager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/TextureManager.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Engine.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Engine.hpp
 Manager.hpp
-D:/Code/C++ Projects/SFMLGame/src/Manager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Manager.hpp
 Rendering/RenderEngine.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/RenderEngine.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/RenderEngine.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Entity.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.cpp
 Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 map
 -
 iostream
 -
 Components/Component.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Component.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Manager.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Manager.cpp
 Manager.hpp
-D:/Code/C++ Projects/SFMLGame/src/Manager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Manager.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Manager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Manager.hpp
 Components/Components.hpp
-D:/Code/C++ Projects/SFMLGame/src/Components/Components.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Components/Components.hpp
 Entity.hpp
-D:/Code/C++ Projects/SFMLGame/src/Entity.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Entity.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Camera.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Camera.cpp
 Camera.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Camera.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Camera.hpp
 SFML/Window.hpp
 -
-iostream
--
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Camera.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Camera.hpp
 glm/vec3.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/RenderEngine.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/RenderEngine.cpp
 RenderEngine.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/RenderEngine.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/RenderEngine.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/RenderEngine.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/RenderEngine.hpp
 SFML/Graphics.hpp
 -
 Renderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Renderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Renderer.hpp
 Camera.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Camera.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Camera.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Renderer.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Renderer.cpp
 Renderer.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Renderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Renderer.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Renderer.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Renderer.hpp
 memory
 -
 SFML/Graphics.hpp
@@ -172,11 +170,11 @@ GL/glew.h
 glm/gtc/matrix_transform.hpp
 -
 Shader.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Shader.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Shader.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Shader.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Shader.cpp
 Shader.hpp
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Shader.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Shader.hpp
 fstream
 -
 sstream
@@ -184,7 +182,7 @@ sstream
 iostream
 -
 
-D:/Code/C++ Projects/SFMLGame/src/Rendering/Shader.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Rendering/Shader.hpp
 GL/glew.h
 -
 string
@@ -192,17 +190,17 @@ string
 glm/glm.hpp
 -
 
-D:/Code/C++ Projects/SFMLGame/src/TextureManager.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/TextureManager.cpp
 iostream
 -
 TextureManager.hpp
-D:/Code/C++ Projects/SFMLGame/src/TextureManager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/TextureManager.hpp
 
-D:/Code/C++ Projects/SFMLGame/src/TextureManager.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/TextureManager.hpp
 SFML/Graphics.hpp
 -
 
-D:/Code/C++ Projects/SFMLGame/src/main.cpp
+D:/Code/C++ Projects/OpenGL-Test/src/main.cpp
 Engine.hpp
-D:/Code/C++ Projects/SFMLGame/src/Engine.hpp
+D:/Code/C++ Projects/OpenGL-Test/src/Engine.hpp
 
