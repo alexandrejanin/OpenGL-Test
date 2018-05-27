@@ -12,7 +12,7 @@ public:
 	void Render(sf::RenderTarget &renderTarget, Camera &camera);
 	void Resize(int width, int height);
 private:
-	std::shared_ptr<Shader> shader = nullptr;
+	std::shared_ptr<Shader> shader = nullptr, spriteShader = nullptr, lightShader = nullptr;
 
 	float fov = 45.f;
 

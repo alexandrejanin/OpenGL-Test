@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Renderer.hpp"
 
 Renderer::Renderer() : shader(nullptr), clock() {}
@@ -50,8 +51,8 @@ void Renderer::LoadTexture(const std::string &path, unsigned int *texture) {
 	glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 
 	//Texture filtering mode
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, filtering ? GL_LINEAR_MIPMAP_LINEAR : GL_NEAREST_MIPMAP_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, filtering ? GL_LINEAR : GL_NEAREST);
 
 	//Load texture from image
 	sf::Image image;
@@ -61,9 +62,12 @@ void Renderer::LoadTexture(const std::string &path, unsigned int *texture) {
 }
 
 void Renderer::Render(glm::mat4 viewTransform) {
-	float time = clock.getElapsedTime().asSeconds();
+	if (shader == nullptr) {
+		std::cerr << "Trying to render object with no shader" << std::endl;
+		return;
+	}
 
-	shader->SetFloat("blend", std::sin(2 * time) / 2 + 0.5f);
+	float time = clock.getElapsedTime().asSeconds();
 
 	glm::mat4 transform = glm::mat4(1.f);
 	transform = glm::translate(transform, position);
@@ -77,6 +81,8 @@ void Renderer::Render(glm::mat4 viewTransform) {
 	glBindTexture(GL_TEXTURE_2D, texture0);
 	glActiveTexture(GL_TEXTURE1);
 	glBindTexture(GL_TEXTURE_2D, texture1);
+
+	shader->SetFloat("blend", std::sin(2 * time) / 2 + 0.5f);
 
 	if (useElementBuffer) {
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, elementBufferObject);

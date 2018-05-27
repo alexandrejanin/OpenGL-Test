@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SFMLGame.dir/src/Rendering/Shader.cpp.obj"
   "CMakeFiles/SFMLGame.dir/src/Rendering/Renderer.cpp.obj"
   "CMakeFiles/SFMLGame.dir/src/Rendering/Camera.cpp.obj"
+  "CMakeFiles/SFMLGame.dir/src/Rendering/Light.cpp.obj"
   "SFMLGame.pdb"
   "SFMLGame.exe"
   "SFMLGame.exe.manifest"

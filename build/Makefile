@@ -47,10 +47,10 @@ RM = "D:\Programs\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Code\C++ Projects\OpenGL-Test"
+CMAKE_SOURCE_DIR = "D:\Code\C++\C++ Projects\OpenGL-Test"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Code\C++ Projects\OpenGL-Test\build"
+CMAKE_BINARY_DIR = "D:\Code\C++\C++ Projects\OpenGL-Test\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Code\C++ Projects\OpenGL-Test\build\CMakeFiles" "D:\Code\C++ Projects\OpenGL-Test\build\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Code\C++\C++ Projects\OpenGL-Test\build\CMakeFiles" "D:\Code\C++\C++ Projects\OpenGL-Test\build\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Code\C++ Projects\OpenGL-Test\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Code\C++\C++ Projects\OpenGL-Test\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -419,6 +419,33 @@ src/Rendering/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles\SFMLGame.dir\build.make CMakeFiles/SFMLGame.dir/src/Rendering/Camera.cpp.s
 .PHONY : src/Rendering/Camera.cpp.s
 
+src/Rendering/Light.obj: src/Rendering/Light.cpp.obj
+
+.PHONY : src/Rendering/Light.obj
+
+# target to build an object file
+src/Rendering/Light.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLGame.dir\build.make CMakeFiles/SFMLGame.dir/src/Rendering/Light.cpp.obj
+.PHONY : src/Rendering/Light.cpp.obj
+
+src/Rendering/Light.i: src/Rendering/Light.cpp.i
+
+.PHONY : src/Rendering/Light.i
+
+# target to preprocess a source file
+src/Rendering/Light.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLGame.dir\build.make CMakeFiles/SFMLGame.dir/src/Rendering/Light.cpp.i
+.PHONY : src/Rendering/Light.cpp.i
+
+src/Rendering/Light.s: src/Rendering/Light.cpp.s
+
+.PHONY : src/Rendering/Light.s
+
+# target to generate assembly for a file
+src/Rendering/Light.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLGame.dir\build.make CMakeFiles/SFMLGame.dir/src/Rendering/Light.cpp.s
+.PHONY : src/Rendering/Light.cpp.s
+
 src/Rendering/RenderEngine.obj: src/Rendering/RenderEngine.cpp.obj
 
 .PHONY : src/Rendering/RenderEngine.obj
@@ -596,6 +623,9 @@ help:
 	@echo ... src/Rendering/Camera.obj
 	@echo ... src/Rendering/Camera.i
 	@echo ... src/Rendering/Camera.s
+	@echo ... src/Rendering/Light.obj
+	@echo ... src/Rendering/Light.i
+	@echo ... src/Rendering/Light.s
 	@echo ... src/Rendering/RenderEngine.obj
 	@echo ... src/Rendering/RenderEngine.i
 	@echo ... src/Rendering/RenderEngine.s

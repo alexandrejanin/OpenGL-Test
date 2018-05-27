@@ -15,6 +15,7 @@ public:
 	void Start(std::shared_ptr<Shader> shader);
 	void Render(glm::mat4 viewTransform);
 private:
+	bool filtering = true;
 	std::shared_ptr<Shader> shader;
 	sf::Clock clock;
 

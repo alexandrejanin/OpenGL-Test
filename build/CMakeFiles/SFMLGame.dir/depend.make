@@ -76,6 +76,9 @@ CMakeFiles/SFMLGame.dir/src/Manager.cpp.obj: ../src/Manager.hpp
 CMakeFiles/SFMLGame.dir/src/Rendering/Camera.cpp.obj: ../src/Rendering/Camera.cpp
 CMakeFiles/SFMLGame.dir/src/Rendering/Camera.cpp.obj: ../src/Rendering/Camera.hpp
 
+CMakeFiles/SFMLGame.dir/src/Rendering/Light.cpp.obj: ../src/Rendering/Light.cpp
+CMakeFiles/SFMLGame.dir/src/Rendering/Light.cpp.obj: ../src/Rendering/Light.hpp
+
 CMakeFiles/SFMLGame.dir/src/Rendering/RenderEngine.cpp.obj: ../src/Rendering/Camera.hpp
 CMakeFiles/SFMLGame.dir/src/Rendering/RenderEngine.cpp.obj: ../src/Rendering/RenderEngine.cpp
 CMakeFiles/SFMLGame.dir/src/Rendering/RenderEngine.cpp.obj: ../src/Rendering/RenderEngine.hpp

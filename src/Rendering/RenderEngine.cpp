@@ -5,10 +5,12 @@ void RenderEngine::Start() {
 	glewInit();
 	glEnable(GL_DEPTH_TEST);
 
-	shader = std::make_shared<Shader>("../assets/shaders/vertexShader.vs", "../assets/shaders/fragmentShader.fs");//Shader("../assets/shaders/vertexShader.vs", "../assets/shaders/fragmentShader.fs");
+	shader = std::make_shared<Shader>("../assets/shaders/vertexShader.vs", "../assets/shaders/fragmentShader.fs");
 	shader->Use();
 	shader->SetInt("texture0", 0);
 	shader->SetInt("texture1", 1);
+
+	lightShader = std::make_shared<Shader>("../assets/shaders/vertexShader.vs", "../assets/shaders/lightShader.fs");
 
 	for (int i = 0; i < 10; i++) {
 		renderers[i].Start(shader);
