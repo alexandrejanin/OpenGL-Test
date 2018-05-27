@@ -6,11 +6,9 @@ GameObject::GameObject(std::string name) :
 		transform(*this),
 		collider(*this),
 		spriteRenderer(*this) {
-	std::cout << player.gameObject.name << std::endl;
 }
 
 void GameObject::Start() {
-	std::cout << player.gameObject.name << std::endl;
 }
 
 void GameObject::Update(float dTime) {

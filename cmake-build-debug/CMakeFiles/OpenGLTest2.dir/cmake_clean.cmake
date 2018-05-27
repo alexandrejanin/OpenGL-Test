@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGLTest2.dir/src/Shader.cpp.obj"
   "CMakeFiles/OpenGLTest2.dir/src/Components/Player.cpp.obj"
   "CMakeFiles/OpenGLTest2.dir/src/Utility.cpp.obj"
+  "CMakeFiles/OpenGLTest2.dir/src/Animation.cpp.obj"
   "OpenGLTest2.pdb"
   "OpenGLTest2.exe"
   "OpenGLTest2.exe.manifest"

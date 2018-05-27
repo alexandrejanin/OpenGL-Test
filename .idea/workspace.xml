@@ -23,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Manager.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Manager.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Manager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -35,13 +35,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manager.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Manager.hpp">
+      <file leaf-file-name="Player.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Player.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpriteRenderer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/SpriteRenderer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
-                <element signature="e#65#93#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Animation.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/Mesh.cpp" />
         <option value="$PROJECT_DIR$/src/Mesh.hpp" />
         <option value="$PROJECT_DIR$/src/Engine.hpp" />
-        <option value="$PROJECT_DIR$/src/Camera.cpp" />
         <option value="$PROJECT_DIR$/src/MeshManager.hpp" />
         <option value="$PROJECT_DIR$/src/MeshManager.cpp" />
         <option value="$PROJECT_DIR$/src/Shader.cpp" />
@@ -73,25 +93,28 @@
         <option value="$PROJECT_DIR$/src/RenderManager.cpp" />
         <option value="$PROJECT_DIR$/assets/shaders/fragmentShader.fs" />
         <option value="$PROJECT_DIR$/assets/shaders/vertexShader.vs" />
-        <option value="$PROJECT_DIR$/src/Camera.hpp" />
         <option value="$PROJECT_DIR$/src/Components/Components.hpp" />
         <option value="$PROJECT_DIR$/src/Utility.hpp" />
         <option value="$PROJECT_DIR$/src/Utility.cpp" />
         <option value="$PROJECT_DIR$/src/Components/Collider.hpp" />
         <option value="$PROJECT_DIR$/src/Components/Collider.cpp" />
-        <option value="$PROJECT_DIR$/src/Components/Transform.hpp" />
-        <option value="$PROJECT_DIR$/src/Components/Transform.cpp" />
-        <option value="$PROJECT_DIR$/src/Components/SpriteRenderer.hpp" />
-        <option value="$PROJECT_DIR$/src/Components/SpriteRenderer.cpp" />
         <option value="$PROJECT_DIR$/src/GameObject.hpp" />
-        <option value="$PROJECT_DIR$/src/GameObject.cpp" />
         <option value="$PROJECT_DIR$/src/Components/Component.hpp" />
-        <option value="$PROJECT_DIR$/src/Engine.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/Manager.hpp" />
         <option value="$PROJECT_DIR$/src/Components/Player.hpp" />
+        <option value="$PROJECT_DIR$/src/Engine.cpp" />
+        <option value="$PROJECT_DIR$/src/Components/Transform.hpp" />
+        <option value="$PROJECT_DIR$/src/Camera.cpp" />
+        <option value="$PROJECT_DIR$/src/Components/Transform.cpp" />
+        <option value="$PROJECT_DIR$/src/Camera.hpp" />
+        <option value="$PROJECT_DIR$/src/Components/SpriteRenderer.hpp" />
         <option value="$PROJECT_DIR$/src/Manager.cpp" />
+        <option value="$PROJECT_DIR$/src/GameObject.cpp" />
         <option value="$PROJECT_DIR$/src/Components/Player.cpp" />
+        <option value="$PROJECT_DIR$/src/Animation.hpp" />
+        <option value="$PROJECT_DIR$/src/Components/SpriteRenderer.cpp" />
+        <option value="$PROJECT_DIR$/src/Animation.cpp" />
       </list>
     </option>
   </component>
@@ -127,7 +150,24 @@
             <path>
               <item name="OpenGLTest2" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenGL-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenGLTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenGLTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL-Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenGLTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,11 +232,12 @@
       <workItem from="1527426908603" duration="2086000" />
       <workItem from="1527429416349" duration="6943000" />
       <workItem from="1527436920794" duration="80000" />
+      <workItem from="1527437274980" duration="9713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52046000" />
+    <option name="totallyTimeSpent" value="61759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,12 +257,12 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.434238" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.32985386" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32985386" />
       <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32985386" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39979124" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39979124" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -242,34 +283,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RenderManager.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/Camera.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/Engine.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="e#63#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RenderManager.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/RenderManager.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/Engine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/SpriteRenderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -315,20 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mesh.cpp" />
     <entry file="file://$PROJECT_DIR$/src/Mesh.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/Rendering/Shader.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="7" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendering/Shader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="141" lean-forward="true" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendering/Shader.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/Rendering/Shader.cpp" />
     <entry file="file://$PROJECT_DIR$/src/Engine.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -353,34 +358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextureManager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextureManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendering/RenderEngine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendering/Renderer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TextureManager.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/TextureManager.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/Rendering/RenderEngine.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/Rendering/Renderer.cpp" />
     <entry file="file://$PROJECT_DIR$/src/Shader.cpp" />
     <entry file="file://$PROJECT_DIR$/src/Shader.hpp" />
     <entry file="file://$PROJECT_DIR$/src/RenderManager.hpp" />
@@ -406,7 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Camera.hpp" />
     <entry file="file://$PROJECT_DIR$/src/Components/Components.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -430,24 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/SpriteRenderer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/SpriteRenderer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Transform.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Transform.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/GameObject.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/GameObject.hpp" />
     <entry file="file://$PROJECT_DIR$/src/Components/Component.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -464,7 +426,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Manager.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="425">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#65#93#0" expanded="true" />
@@ -473,27 +435,138 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Player.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/Camera.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/Manager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="294">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Player.cpp" />
+    <entry file="file://D:/Programs/MinGW/include/glm/gtc/matrix_transform.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Camera.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Transform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Transform.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/MinGW/lib/gcc/mingw32/6.3.0/include/c++/tuple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1585" column="69" selection-start-line="1585" selection-start-column="69" selection-end-line="1585" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/MinGW/lib/gcc/mingw32/6.3.0/include/c++/unordered_map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/tiles.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/SpriteRenderer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#170#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Manager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameObject.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameObject.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/SpriteRenderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animation.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="e#69#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

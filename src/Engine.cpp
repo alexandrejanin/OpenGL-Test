@@ -27,8 +27,12 @@ void Engine::Update() {
 	sf::Event event{};
 
 	while (window.pollEvent(event)) {
-		if (event.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) {
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape) || event.type == sf::Event::Closed) {
 			isRunning = false;
+			return;
+		}
+		if (event.type == sf::Event::Resized) {
+			glViewport(0, 0, event.size.width, event.size.height);
 			return;
 		}
 	}

@@ -12,5 +12,7 @@ void Player::Update(float dTime) {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))movement.z -= speed;
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))movement.z += speed;
 
+	gameObject.spriteRenderer.SetAnimation(movement.x != 0 || movement.z != 0 ? "Walk" : "Idle");
+
 	gameObject.transform.position += dTime * movement;
 }

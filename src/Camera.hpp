@@ -7,18 +7,17 @@
 
 class Camera {
 public:
-	glm::vec3 target = glm::vec3(0.f, 0.f, 0.f);
+	glm::vec2 rotation = glm::vec2(30.f, 90.f);
+	glm::vec3 position = glm::vec3(0.f, 0.f, 1.f), target = glm::vec3(0.f, 0.f, 0.f);
+	glm::vec3 forward, right, up;
 	void Update(float dTime);
 
 	glm::mat4 TransformMatrix(sf::RenderTarget &renderTarget);
 private:
 	bool freeCam = false;
 	float fov = 60.f;
-	glm::vec2 rotation = glm::vec2(0.f, 0.f);
-	glm::vec3 position = glm::vec3(0.f, 0.f, 1.f),
-			forward = glm::vec3(0.f, 0.f, -1.f), right = glm::vec3(1.f, 0.f, 0.f), up = glm::vec3(0.f, 1.f, 0.f);
-	float distance = 3.f;
-	float speed = 1.f, rotateSpeed = 90.f, smoothFactor = 10.f;
+	float distance = 6.f;
+	float freeCamSpeed = 1.f, rotateSpeed = 90.f, smoothFactor = 10.f;
 };
 
 #endif //OPENGLTEST2_CAMERA_HPP

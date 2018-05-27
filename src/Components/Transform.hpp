@@ -8,10 +8,12 @@ class Transform : public Component {
 public:
 	glm::vec3 position = glm::vec3(0.f),
 			rotation = glm::vec3(0.f),
-			scale = glm::vec3(1.f);
+			localScale = glm::vec3(1.f),
+			forward, right, up;
+	glm::mat4 matrix;
 
 	explicit Transform(GameObject &gameObject);
-	glm::mat4 GetTransformMatrix();
+	void Update(float dTime) override;
 };
 
 #endif //OPENGLTEST2_TRANSFORM_HPP

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.cpp" "D:/Code/C++/C++ Projects/OpenGL-Test/cmake-build-debug/CMakeFiles/OpenGLTest2.dir/src/Animation.cpp.obj"
   "D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.cpp" "D:/Code/C++/C++ Projects/OpenGL-Test/cmake-build-debug/CMakeFiles/OpenGLTest2.dir/src/Camera.cpp.obj"
   "D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Collider.cpp" "D:/Code/C++/C++ Projects/OpenGL-Test/cmake-build-debug/CMakeFiles/OpenGLTest2.dir/src/Components/Collider.cpp.obj"
   "D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Player.cpp" "D:/Code/C++/C++ Projects/OpenGL-Test/cmake-build-debug/CMakeFiles/OpenGLTest2.dir/src/Components/Player.cpp.obj"

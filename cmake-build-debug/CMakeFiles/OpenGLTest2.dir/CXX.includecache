@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.cpp
+cmath
+-
+Animation.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.hpp
+
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.hpp
+glm/vec4.hpp
+-
+vector
+-
+
 D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.cpp
 Camera.hpp
 D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.hpp
@@ -57,16 +69,22 @@ D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.cpp
 SpriteRenderer.hpp
 D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
+../GameObject.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/GameObject.hpp
 
 D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
-Component.hpp
-D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 string
 -
 GL/glew.h
 -
 SFML/Graphics/Texture.hpp
 -
+map
+-
+Component.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
+../Animation.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.hpp
 
 D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Transform.cpp
 Transform.hpp

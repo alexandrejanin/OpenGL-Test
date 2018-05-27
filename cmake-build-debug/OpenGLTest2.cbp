@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGL-Test/src/Animation.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
 		<Unit filename="D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.cpp">
 			<Option target="OpenGLTest2"/>
 		</Unit>

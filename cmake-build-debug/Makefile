@@ -122,6 +122,33 @@ OpenGLTest2/fast:
 	$(MAKE) -f CMakeFiles\OpenGLTest2.dir\build.make CMakeFiles/OpenGLTest2.dir/build
 .PHONY : OpenGLTest2/fast
 
+src/Animation.obj: src/Animation.cpp.obj
+
+.PHONY : src/Animation.obj
+
+# target to build an object file
+src/Animation.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenGLTest2.dir\build.make CMakeFiles/OpenGLTest2.dir/src/Animation.cpp.obj
+.PHONY : src/Animation.cpp.obj
+
+src/Animation.i: src/Animation.cpp.i
+
+.PHONY : src/Animation.i
+
+# target to preprocess a source file
+src/Animation.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenGLTest2.dir\build.make CMakeFiles/OpenGLTest2.dir/src/Animation.cpp.i
+.PHONY : src/Animation.cpp.i
+
+src/Animation.s: src/Animation.cpp.s
+
+.PHONY : src/Animation.s
+
+# target to generate assembly for a file
+src/Animation.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenGLTest2.dir\build.make CMakeFiles/OpenGLTest2.dir/src/Animation.cpp.s
+.PHONY : src/Animation.cpp.s
+
 src/Camera.obj: src/Camera.cpp.obj
 
 .PHONY : src/Camera.obj
@@ -455,6 +482,9 @@ help:
 	@echo ... edit_cache
 	@echo ... OpenGLTest2
 	@echo ... rebuild_cache
+	@echo ... src/Animation.obj
+	@echo ... src/Animation.i
+	@echo ... src/Animation.s
 	@echo ... src/Camera.obj
 	@echo ... src/Camera.i
 	@echo ... src/Camera.s
