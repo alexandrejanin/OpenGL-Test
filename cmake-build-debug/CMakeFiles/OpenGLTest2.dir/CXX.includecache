@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Camera.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.cpp
 Camera.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Camera.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Camera.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.hpp
 glm/vec3.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -18,49 +18,49 @@ glm/gtc/matrix_transform.hpp
 SFML/Graphics.hpp
 -
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Collider.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Collider.cpp
 Collider.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Collider.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Collider.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Collider.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Collider.hpp
 Component.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Component.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Component.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 glm/gtc/matrix_transform.hpp
 -
 ../Utility.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Utility.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Utility.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Components.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Components.hpp
 Collider.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Collider.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Collider.hpp
 SpriteRenderer.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/SpriteRenderer.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
 Transform.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Transform.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Transform.hpp
 Player.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Player.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Player.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Player.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Player.cpp
 SFML/Window/Keyboard.hpp
 -
 Player.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Player.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Player.hpp
 ../GameObject.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/GameObject.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Player.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Player.hpp
 Component.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Component.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/SpriteRenderer.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.cpp
 SpriteRenderer.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/SpriteRenderer.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/SpriteRenderer.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/SpriteRenderer.hpp
 Component.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Component.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 string
 -
 GL/glew.h
@@ -68,71 +68,71 @@ GL/glew.h
 SFML/Graphics/Texture.hpp
 -
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Transform.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Transform.cpp
 Transform.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Transform.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Transform.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Transform.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Transform.hpp
 SFML/System.hpp
 -
 Component.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Component.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Component.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Engine.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Engine.cpp
 iostream
 -
 Engine.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Engine.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Engine.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Engine.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Engine.hpp
 Manager.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Manager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Manager.hpp
 RenderManager.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/RenderManager.hpp
 SFML/Graphics.hpp
 -
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/GameObject.cpp
 GameObject.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/GameObject.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/GameObject.hpp
 vector
 -
 glm/gtc/matrix_transform.hpp
 -
 Components/Components.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Components.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Components/Components.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Manager.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Manager.cpp
 iostream
 -
 memory
 -
 Manager.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Manager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Manager.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Manager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Manager.hpp
 SFML/Graphics.hpp
 -
 vector
 -
 GameObject.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/GameObject.hpp
 Camera.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Camera.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Camera.hpp
 RenderManager.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/RenderManager.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/RenderManager.cpp
 GL/glew.h
 -
 iostream
 -
 RenderManager.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/RenderManager.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/RenderManager.hpp
 glm/vec3.hpp
 -
 glm/vec2.hpp
@@ -144,11 +144,11 @@ SFML/Graphics/Texture.hpp
 map
 -
 Shader.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Shader.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Shader.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Shader.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Shader.cpp
 Shader.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Shader.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Shader.hpp
 fstream
 -
 sstream
@@ -158,17 +158,17 @@ iostream
 GL/glew.h
 -
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Shader.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Shader.hpp
 string
 -
 glm/matrix.hpp
 -
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Utility.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Utility.cpp
 Utility.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Utility.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Utility.hpp
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Utility.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Utility.hpp
 iostream
 -
 glm/vec2.hpp
@@ -178,7 +178,7 @@ glm/vec3.hpp
 glm/vec4.hpp
 -
 
-D:/Code/C++/C++ Projects/OpenGLTest2/src/main.cpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/main.cpp
 Engine.hpp
-D:/Code/C++/C++ Projects/OpenGLTest2/src/Engine.hpp
+D:/Code/C++/C++ Projects/OpenGL-Test/src/Engine.hpp
 
