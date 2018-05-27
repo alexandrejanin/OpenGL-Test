@@ -1,23 +1,16 @@
-#ifndef ECS_SPRITERENDERER_HPP
-#define ECS_SPRITERENDERER_HPP
+#ifndef OPENGLTEST2_SPRITERENDERER_HPP
+#define OPENGLTEST2_SPRITERENDERER_HPP
 
 #include "Component.hpp"
-#include "Position.hpp"
-#include <SFML/Graphics.hpp>
+#include <string>
+#include <GL/glew.h>
+#include <SFML/Graphics/Texture.hpp>
 
 class SpriteRenderer : public Component {
 public:
-	sf::IntRect sourceRect = sf::IntRect(0, 0, 32, 32);
-	sf::Vector2f origin = sf::Vector2f(0, 0);
-	float angle = 0;
-
-	explicit SpriteRenderer(Entity &entityID);
-	void Start() override;
-	void Draw(sf::RenderTarget &renderTarget) override;
-	void LoadTexture(const std::string &path);
-private:
-	Position *position;
-	sf::Sprite sprite;
+	std::string path;
+	glm::vec4 sourceRect = glm::vec4(0.f, 0.f, 1.f, 1.f);
+	explicit SpriteRenderer(GameObject &gameObject);
 };
 
-#endif //ECS_SPRITERENDERER_HPP
+#endif //OPENGLTEST2_SPRITERENDERER_HPP

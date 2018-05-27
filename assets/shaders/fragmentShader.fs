@@ -4,11 +4,13 @@ in vec2 texCoord;
 
 out vec4 fragmentColor;
 
-uniform sampler2D texture0;
-uniform sampler2D texture1;
-uniform float blend;
+uniform sampler2D sourceTexture;
+uniform vec4 sourceRect;
 
 void main(){
     vec2 texCoordFlipped = vec2(texCoord.x, 1 - texCoord.y);
-	fragmentColor = mix(texture(texture0, texCoordFlipped), texture(texture1, texCoordFlipped), blend);
+	fragmentColor = texture(sourceTexture, vec2(sourceRect.x + texCoordFlipped.x * sourceRect.z, sourceRect.y + texCoordFlipped.y * sourceRect.w));
+	if (fragmentColor.w < 0.01f){
+	    discard;
+	}
 }

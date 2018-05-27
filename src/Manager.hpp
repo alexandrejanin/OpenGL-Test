@@ -1,21 +1,25 @@
-#ifndef SFMLGAME_MANAGER_HPP
-#define SFMLGAME_MANAGER_HPP
+#ifndef OPENGLTEST2_MANAGER_HPP
+#define OPENGLTEST2_MANAGER_HPP
 
-#include "Components/Components.hpp"
-#include "Entity.hpp"
+#include <SFML/Graphics.hpp>
+#include <vector>
+#include "GameObject.hpp"
+#include "Camera.hpp"
+#include "RenderManager.hpp"
 
+//Manages GameObjects in the current scene.
 class Manager {
 public:
+	explicit Manager(RenderManager &renderManager);
 	void Start();
 	void Update(float dTime);
 	void Draw(sf::RenderTarget &renderTarget);
-	void Stop();
 
-	Entity *CreateEntity();
+	std::shared_ptr<GameObject> AddObject(const std::string &name, bool active = true);
 private:
-	std::vector<Entity *> entities;
-	void CreatePlayer(int x, int y);
-	void CreateEnemy(int x, int y);
+	RenderManager &renderManager;
+	Camera camera;
+	std::vector<std::shared_ptr<GameObject>> gameObjects;
 };
 
-#endif //SFMLGAME_MANAGER_HPP
+#endif //OPENGLTEST2_MANAGER_HPP

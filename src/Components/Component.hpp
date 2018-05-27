@@ -1,38 +1,20 @@
-#ifndef ECS_COMPONENT_HPP
-#define ECS_COMPONENT_HPP
+#ifndef OPENGLTEST2_COMPONENT_HPP
+#define OPENGLTEST2_COMPONENT_HPP
 
-#include "SFML/Graphics.hpp"
+#include <glm/gtc/matrix_transform.hpp>
+#include "../Utility.hpp"
 
-class Entity;
-using ComponentID = unsigned short;
+class GameObject;
 
 class Component {
 public:
-	bool enabled = true;
-	Entity &entity;
+	bool active = false;
+	GameObject &gameObject;
 
-	virtual ~Component();
-
-	virtual void Start();
-
-	virtual void Update(float dTime);
-
-	virtual void Draw(sf::RenderTarget &renderTarget);
-
-	template<typename T>
-	static ComponentID GetComponentID() {
-		static const ComponentID id = GetUniqueComponentID();
-		return id;
-	}
+	virtual void Update(float) {}
 
 protected:
-	explicit Component(Entity &entityID);
-
-private:
-	static ComponentID GetUniqueComponentID() {
-		static ComponentID id = 0u;
-		return id++;
-	}
+	explicit Component(GameObject &gameObject) : gameObject(gameObject) {}
 };
 
-#endif //ECS_COMPONENT_HPP
+#endif //OPENGLTEST2_COMPONENT_HPP

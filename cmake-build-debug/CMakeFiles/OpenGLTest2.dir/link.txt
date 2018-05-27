@@ -1,0 +1,3 @@
+"D:\Programs\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\OpenGLTest2.dir/objects.a
+D:\Programs\MinGW\bin\ar.exe cr CMakeFiles\OpenGLTest2.dir/objects.a @CMakeFiles\OpenGLTest2.dir\objects1.rsp
+D:\Programs\MinGW\bin\g++.exe  -std=c++11 -W -Wall -Wextra -pedantic -g   -Wl,--whole-archive CMakeFiles\OpenGLTest2.dir/objects.a -Wl,--no-whole-archive  -o OpenGLTest2.exe -Wl,--out-implib,libOpenGLTest2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenGLTest2.dir\linklibs.rsp

@@ -1,30 +1,29 @@
-#ifndef ECS_ENGINE_HPP
-#define ECS_ENGINE_HPP
+#ifndef OPENGLTEST2_ENGINE_HPP
+#define OPENGLTEST2_ENGINE_HPP
 
 #include "Manager.hpp"
-#include "Rendering/RenderEngine.hpp"
+#include "RenderManager.hpp"
+#include <SFML/Graphics.hpp>
 
+//Manages low level mechanics: windows, input, main loop.
 class Engine {
 public:
-	Engine();
+	explicit Engine(unsigned int width, unsigned int height);
 
 	void Start();
-	void HandleEvents();
 	void Update();
 	void Draw();
+	void Stop();
 
-	bool IsRunning();
+	bool isRunning = false;
 private:
 	sf::RenderWindow window;
 	sf::Clock clock;
 
-	Camera camera;
-
+	RenderManager renderManager;
 	Manager manager;
-	RenderEngine renderEngine;
 
-	bool running = false;
-	void Stop();
+	bool InitOpenGL();
 };
 
-#endif //ECS_ENGINE_HPP
+#endif //OPENGLTEST2_ENGINE_HPP

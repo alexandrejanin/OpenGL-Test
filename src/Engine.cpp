@@ -1,66 +1,67 @@
+#include <iostream>
 #include "Engine.hpp"
-#include "TextureManager.hpp"
 
-Engine::Engine() : window(
-		sf::VideoMode(800, 600),
-		"Game made using SFML and OpenGL",
-		sf::Style::Default,
-		sf::ContextSettings(24, 8, 4, 4, 6)) {
+Engine::Engine(unsigned int width, unsigned int height) :
+		window(sf::VideoMode(width, height),
+			   "Game",
+			   sf::Style::Default,
+			   sf::ContextSettings(24, 8, 4, 4, 6)),
+		manager(renderManager) {
 	window.setActive();
+	window.setVerticalSyncEnabled(true);
 }
 
 void Engine::Start() {
-	running = true;
+	if (!InitOpenGL()) {
+		std::cerr << "Could not initialize OpenGL." << std::endl;
+		return;
+	}
+	isRunning = true;
 
-	renderEngine.Start();
+	renderManager.Start();
 
 	manager.Start();
 }
 
-bool Engine::IsRunning() { return running; }
-
-void Engine::HandleEvents() {
+void Engine::Update() {
 	sf::Event event{};
+
 	while (window.pollEvent(event)) {
-		switch (event.type) {
-			case sf::Event::Closed:
-				Stop();
-				break;
-			case sf::Event::KeyPressed:
-				if (event.key.code == sf::Keyboard::Escape) Stop();
-				break;
-			case sf::Event::Resized:
-				renderEngine.Resize(event.size.width, event.size.height);
-				break;
-			default:
-				break;
+		if (event.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) {
+			isRunning = false;
+			return;
 		}
 	}
-}
-
-void Engine::Update() {
-	if (!running) return;
 
 	float dTime = clock.restart().asSeconds();
 	manager.Update(dTime);
-	camera.Update(dTime);
 }
 
 void Engine::Draw() {
-	if (!running) return;
+	glClearColor(.2f, .1f, .2f, 1.f);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	//window.clear();
-	renderEngine.Render(window, camera);
-
-	//window.pushGLStates();
-	//manager.Draw(window);
-	//window.popGLStates();
+	manager.Draw(window);
 
 	window.display();
 }
 
 void Engine::Stop() {
-	running = false;
-	TextureManager::Clear();
-	manager.Stop();
+}
+
+bool Engine::InitOpenGL() {
+	glewExperimental = GL_TRUE;
+
+	GLenum err = glewInit();
+
+	if (err != GLEW_OK) {
+		std::cerr << "Error: " << glewGetErrorString(err) << std::endl;
+		return false;
+	}
+
+	glEnable(GL_TEXTURE_2D);
+	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_BLEND);
+
+	return true;
 }

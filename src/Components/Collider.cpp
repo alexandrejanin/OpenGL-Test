@@ -1,3 +1,3 @@
 #include "Collider.hpp"
 
-Collider::Collider(Entity &entityID) : Component(entityID) {}
+Collider::Collider(GameObject &gameObject) : Component(gameObject) {}

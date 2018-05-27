@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-project(SFMLGame)
+project(OpenGLTest2)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -W -Wall -Wextra -pedantic -mwindows")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -W -Wall -Wextra -pedantic")
 
-set(FILES src/main.cpp src/Engine.cpp src/Engine.hpp src/Components/Component.hpp src/Components/Position.cpp src/Components/Position.hpp src/Components/SpriteRenderer.cpp src/Components/SpriteRenderer.hpp src/Components/Collider.cpp src/Components/Collider.hpp src/Components/Components.hpp src/Components/Component.cpp src/Entity.cpp src/Entity.hpp src/Components/FPSCounter.cpp src/Components/FPSCounter.hpp src/Components/TextRenderer.cpp src/Components/TextRenderer.hpp src/TextureManager.cpp src/TextureManager.hpp src/Components/KeyboardInput.cpp src/Components/KeyboardInput.hpp src/Manager.cpp src/Manager.hpp src/Rendering/RenderEngine.cpp src/Rendering/RenderEngine.hpp src/Rendering/Shader.cpp src/Rendering/Shader.hpp src/Rendering/Renderer.cpp src/Rendering/Renderer.hpp src/Rendering/Camera.cpp src/Rendering/Camera.hpp src/Rendering/Light.cpp src/Rendering/Light.hpp)
-add_executable(SFMLGame ${FILES})
+add_executable(OpenGLTest2 src/main.cpp src/Engine.cpp src/Engine.hpp src/Manager.cpp src/Manager.hpp src/Components/SpriteRenderer.cpp src/Components/SpriteRenderer.hpp src/GameObject.cpp src/GameObject.hpp src/Components/Component.hpp src/Camera.cpp src/Camera.hpp src/Components/Collider.cpp src/Components/Collider.hpp src/Components/Transform.cpp src/Components/Transform.hpp src/Components/Components.hpp src/RenderManager.cpp src/RenderManager.hpp src/Shader.cpp src/Shader.hpp src/Components/Player.cpp src/Components/Player.hpp src/Utility.hpp src/Utility.cpp)
 
-target_link_libraries(SFMLGame sfml-audio-d sfml-graphics-d sfml-window-d sfml-system-d opengl32 glew32)
+target_link_libraries(OpenGLTest2 sfml-graphics-d sfml-window-d sfml-system-d glew32 opengl32)

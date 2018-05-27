@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLTest2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTest2">
+				<Option output="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/OpenGLTest2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLTest2"/>
+					<CompileFile command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTest2/fast">
+				<Option output="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/OpenGLTest2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\programs\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLTest2/fast"/>
+					<CompileFile command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MinGW/bin/mingw32-make.exe -f &quot;D:/Code/C++/C++ Projects/OpenGLTest2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Camera.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Camera.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Collider.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Collider.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Component.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Components.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Player.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Player.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/SpriteRenderer.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/SpriteRenderer.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Transform.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Components/Transform.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Engine.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Engine.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/GameObject.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Manager.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Manager.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/RenderManager.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Shader.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Shader.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Utility.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/Utility.hpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/src/main.cpp">
+			<Option target="OpenGLTest2"/>
+		</Unit>
+		<Unit filename="D:/Code/C++/C++ Projects/OpenGLTest2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

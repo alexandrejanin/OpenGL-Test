@@ -1,14 +1,15 @@
 #include "Engine.hpp"
 
 int main() {
-	Engine engine;
+	Engine engine(800, 600);
 	engine.Start();
 
-	while (engine.IsRunning()) {
-		engine.HandleEvents();
+	while (engine.isRunning) {
 		engine.Update();
 		engine.Draw();
 	}
 
-	return EXIT_SUCCESS;
+	engine.Stop();
+
+	return 0;
 }
